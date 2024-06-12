@@ -1,6 +1,6 @@
-from flask import Flask
-from flask_jwt_extended import JWTManager
-from flask_swagger_ui import get_swaggerui_blueprint
+from flask import Flask #type:ignore
+from flask_jwt_extended import JWTManager#type:ignore
+from flask_swagger_ui import get_swaggerui_blueprint#type:ignore
 
 from app.database import db
 
